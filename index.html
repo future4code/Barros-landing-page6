@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>4Food</title>
+    <title>- 4Food -</title>
     <link rel="shortcut icon" href="img/4food.png">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsivo.css">
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;600&family=Roboto+Condensed:wght@300&family=Sarala&family=Smooch&family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -15,7 +16,7 @@
 
     <header>
         <div class="logo">
-        <img src="img/4food.png" alt="Logo da empresa">
+        <img id="logo-img" src="img/4food.png" alt="Logo da empresa">
         <nav>
             <a href="#" title="" target="_blank"> Página Inicial</a>
             <a href="#" title="" target="_blank"> Restaurantes e Mercados</a>
@@ -39,8 +40,10 @@
 
     <form action="">
         <div class="pesquisar">
+           <div class="caixa-de-pesquisa">
             <img src="img/gps.png" alt="icone gps">
-            <input type="text" id="barra-de-pesquisa" placeholder="Endereço de entrega">
+            <input type="search" id="barra-de-pesquisa" placeholder="Endereço de entrega">
+           </div>
             <button type="submit" id="bt-pesquisa"> Buscar</button>
         </div>
     </form>
