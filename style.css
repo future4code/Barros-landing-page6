@@ -1,8 +1,10 @@
 * {
     margin: 0;
     padding: 0;
-    
+    font-family: 'Source Sans Pro', sans-serif;
 }
+
+
 
 /* Cabeçalho */
 
@@ -23,13 +25,19 @@ align-items: center;
     margin-right: 30px;
 }
 
+/* resposinvo */
+
 @media screen and (min-device-width: 1025px) and (max-device-width:1300px) {
    #logo-img{
        width: 200px;
        margin-right: 15px;
    } 
 }
-   
+
+
+
+/*-------------*/
+
 nav a {
 font-size: 25px;
 text-decoration: none;
@@ -38,12 +46,16 @@ margin-right: 30px;
 padding: 5px;
 }
 
+/* resposinvo */
+
 @media screen and (min-device-width: 1025px) and (max-device-width:1300px) {
     nav a{
         font-size: 15px;
         margin-right: 15px;
     }
 }
+
+/*-------------*/
 
 nav a:hover {
     color:#58331b;
@@ -70,6 +82,8 @@ border-radius: 8px;
     background-color: #ac9689b0;
 }
 
+/* resposinvo */
+
 @media screen and (min-device-width: 1025px) and (max-device-width:1300px) {
     .entrar {
         margin-right: 50px;
@@ -81,7 +95,12 @@ border-radius: 8px;
     }
     
 }
+
+/*-------------*/
+
 /* main */
+
+
 
 .slogan {
     text-align: center;
@@ -91,6 +110,8 @@ border-radius: 8px;
     
 }
 
+/* resposinvo */
+
 @media screen and (min-device-width: 1025px) and (max-device-width:1300px) {
     .slogan {
         font-size: 20px;
@@ -98,6 +119,8 @@ border-radius: 8px;
         
     }
 }
+
+/*-------------*/
 
 .pesquisar {
 display: flex;
@@ -109,16 +132,19 @@ height: 45px;
 border-radius: 10px;
 }
 
+/* resposinvo */
+
 @media screen and (min-device-width: 1025px) and (max-device-width:1300px) {
     .pesquisar {
         margin: 40px auto;
-        width: 375px;
+        width: 475px;
         height: 25px;
         border-radius: 10px;
         
         }
 }
 
+/*-------------*/
 
 .pesquisar img {
     width: 20px;
@@ -126,11 +152,15 @@ border-radius: 10px;
     margin-left: 8px;
 }
 
+/* resposinvo */
+
 @media screen and (min-device-width: 1025px) and (max-device-width:1300px) {
    .pesquisar img{
        width: 13px;
    }
 }
+
+/*-------------*/
 
 #barra-de-pesquisa {
     width: 100%;
@@ -161,43 +191,56 @@ border-radius: 10px;
     padding: 10px;
    }
 
+/* resposinvo */
+
 @media screen and (min-device-width: 1025px) and (max-device-width:1300px) {
    #bt-pesquisa{
     font-size: 12px;
-    color:rgb(86, 29, 29);
     padding: 0px 10px;
-    background-color:#ac9689b0;
-    height: 100%;
-    border-radius: 8px;
-    border: none;
-    cursor: pointer;
    }
    .caixa-de-pesquisa{
-    border: 1px solid black;
-    display: flex;
-    border-radius: 5px;
-    margin-right: 10px;
     width: 100%;
     padding: 3px;
    }
 
 }
 
+/*-------------*/
+
+/* mercado e restaurante - mr */
+
 .m-r {
     display: flex;
     width: 900px;
     margin: 40px auto;
-    
 }
 
+/* resposinvo */
 
+@media screen and (min-device-width:1025px) and (max-device-width:1300px) {
+    .m-r{
+        width: 570px;
+    }
+}
+
+/*-------------*/
 
 .restaurantes {
     display: flex;
     margin: 40px auto;
     width: 400px;
+    
 }
 
+/* resposinvo */
+
+@media screen and (min-device-width:1025px) and (max-device-width:1300px) {
+ .restaurantes {
+    width: 250px;
+ }   
+}
+
+/*-------------*/
 
 .restaurantes img {
     width: 400px;
@@ -205,6 +248,15 @@ border-radius: 10px;
     box-shadow: 1px 1px 3px  black;
 }
 
+/* resposinvo */
+
+@media screen and (min-device-width:1025px) and (max-device-width:1300px) {
+    .restaurantes img{
+        width: 250px;
+    }
+}
+
+/*-------------*/
 
 .restaurantes h1 {
     position:absolute;
@@ -212,6 +264,16 @@ border-radius: 10px;
     font-size: 40px;
     margin-top: 20px;
     margin-left: 15px;
-    text-shadow: 0.1em 0.1em 0.2em black;
+    text-shadow: 0.1em 0.1em 0.1em black;
 }
+
+/* resposinvo */
+
+@media screen and (min-device-width:1025px) and (max-device-width:1300px) {
+    .restaurantes h1{
+        font-size: 27px;
+    }
+}
+
+/*-------------*/
 
