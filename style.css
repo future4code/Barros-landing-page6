@@ -364,3 +364,18 @@ margin-top: 70px;
     border: none;
     outline: 0;
 }
+
+
+
+
+
+.tabela-vagas {
+    border: 2px solid black;
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    padding-left: 15px;
+    font-weight: bolder;
+    font-size: 20px;
+}
