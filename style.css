@@ -115,7 +115,7 @@ border-radius: 8px;
 @media screen and (min-device-width: 1025px) and (max-device-width:1300px) {
     .slogan {
         font-size: 20px;
-        padding-top: 40px;
+        padding-top: 5px;
         
     }
 }
@@ -206,6 +206,9 @@ border-radius: 10px;
     padding: 3px;
    }
 
+   #barra-de-pesquisa{
+    font-size: 15px;
+   }
 }
 
 /*-------------*/
@@ -290,6 +293,18 @@ border-radius: 10px;
     text-shadow: 0.1em 0.1em 0.1em black;
 }
 
+/* resposinvo */
+
+@media screen and (min-device-width:1025px) and (max-device-width:1300px) {
+    .link-res {
+        font-size: 20px;
+        margin-left: 18px;
+        margin-top: 100px;
+    }
+}
+
+/*-------------*/
+
 .parceiros {
 background-color: #cab3a4;
 margin-top: 70px;
@@ -303,6 +318,17 @@ margin-top: 70px;
     padding-top: 20px;
 
 }
+
+/* resposinvo */
+
+@media screen and (min-device-width:1025px) and (max-device-width:1300px) {
+   .slogan-parceiros{
+    margin-left: 215px;
+    font-size: 15px;
+   }
+}
+
+/*-------------*/
 
 .slogan-parceiros h1 {
     margin-bottom: 5px;
@@ -321,7 +347,22 @@ margin-top: 70px;
     margin-top: 20px;
     border: 1px solid black;
     background-color: white;
+    box-shadow: 1px 1px 3px black;
 }
+
+/* resposinvo */
+
+@media screen and (min-device-width:1025px) and (max-device-width:1300px) {
+    .buscar-parceiro{
+        width: 400px;
+        padding: 5px;
+        border-radius: 15px;
+        margin-left: 215px;
+        height: 15px;
+    }
+ }
+ 
+/*-------------*/
 
 .buscar-parceiro button {
     border: none;
@@ -344,11 +385,33 @@ margin-top: 70px;
 
 }
 
+/* resposinvo */
+
+@media screen and (min-device-width:1025px) and (max-device-width:1300px) {
+    .caixa-de-pesquisa-parceiro img{
+        width: 13px;
+        margin-left: 5px;
+    }
+ }
+ 
+/*-------------*/
+
 #img-bt {
     width: 20px;
     border: none;
     
 }
+
+/* resposinvo */
+
+@media screen and (min-device-width:1025px) and (max-device-width:1300px) {
+    #img-bt{
+        width: 13px;
+        margin-right: 5px;
+    }
+ }
+ 
+/*-------------*/
 
 #barra-de-pesquisa-parceiro {
     width: 100%;
@@ -360,10 +423,18 @@ margin-top: 70px;
     font-size: 20px;
 }
 
-.bt-parceiro {
-    border: none;
-    outline: 0;
-}
+/* resposinvo */
+
+@media screen and (min-device-width:1025px) and (max-device-width:1300px) {
+    #barra-de-pesquisa-parceiro{
+        padding-left: 10px;
+        font-size: 15px;
+    }
+ }
+ 
+/*-------------*/
+
+
 
 
 
@@ -378,4 +449,101 @@ margin-top: 70px;
     padding-left: 15px;
     font-weight: bolder;
     font-size: 20px;
+}
+
+/* tabela vagas */
+
+.tabela-vagas{
+    margin-left: 200px;
+    margin-top: 35px; 
+    font-size: 15px;
+    width: 800px;
+    padding-bottom: 50px;
+}
+
+#tabela{
+    width: 100%;
+    text-align: left;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: #b49a89;
+    border-radius: 15px;
+    box-shadow: 1px 1px 8px black;
+}
+
+#tabela th{
+   padding-right: 50px;
+   padding-bottom: 5px;
+   padding-left: 5px;
+}
+
+#tabela td{
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 5px;
+}
+
+#tabela tr:hover {
+ cursor: pointer;
+ background-color: #cab3a4;
+ align-items: center;
+}
+
+
+/* canais */
+
+.canais{
+    text-align: center;
+    margin-top: 15px;
+}
+
+.canais-slogan h1{
+    margin-bottom: 25px;
+}
+
+.canais-slogan p{
+    margin-bottom: 100px;
+}
+
+/* redes */
+
+.redes{
+    width: 750px;
+    margin: 25px auto;
+    gap: 30px;
+    display: grid;
+    grid-template-columns: 240px 240px 240px;
+}
+
+.redes-icones {
+    display: flex;
+    padding: 20px;
+    box-shadow: 1px 1px 8px rgb(182, 182, 182);
+    align-items: center;
+}
+
+.redes-icones img {
+    width: 50px;
+    height: 50px;
+    margin-right: 25px;
+}
+
+.link-redes a{
+    text-decoration: none;
+    color: black;
+}
+
+.link-redes h1{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.link-redes p{
+    font-size: 14px;
+}
+
+footer{
+    font-size: 10px;
+    text-align: center;
+    margin:40px 0 20px 0;
 }
